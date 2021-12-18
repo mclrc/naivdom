@@ -1,0 +1,21 @@
+{
+  "name": "naivdom",
+  "version": "0.0.1",
+  "type": "module",
+  "description": "Lightweight, zero-dependency vdom implementation",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "scripts": {
+    "build": "tsc",
+    "watch": "tsc -w"
+  },
+  "keywords": [
+    "vdom",
+    "front-end",
+    "framework",
+    "lightweight",
+    "zero-dependency"
+  ],
+  "author": "Moritz Clerc <moritzamando@protonmail.com>",
+  "license": "ISC"
+}

@@ -5,6 +5,10 @@
   "description": "Lightweight, zero-dependency vdom implementation",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/pixldemon/naivdom"
+  },
   "scripts": {
     "build": "tsc",
     "watch": "tsc -w"

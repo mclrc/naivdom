@@ -109,7 +109,10 @@ export function diffProps(vold: VNode, vnew: VNode): Function[] {
 			patches.push($el => $el.removeAttribute(prop))
 
 		if (vold.props[prop] !== vnew.props[prop]) // Create a patch to update the value of props present on the new node, if they have changed
-			patches.push($el => $el.setAttribute(prop, vnew.props[prop]))
+			patches.push($el => {
+				$el.setAttribute(prop, vnew.props[prop])
+				$el[prop] = vnew.props[prop]
+			})
 	})
 	return patches
 }

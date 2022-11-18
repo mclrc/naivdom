@@ -20,6 +20,9 @@
     "lightweight",
     "zero-dependency"
   ],
+  "devDependencies": {
+	"typescript": "*"
+  },
   "author": "Moritz Clerc <moritzamando@protonmail.com>",
   "license": "ISC"
 }

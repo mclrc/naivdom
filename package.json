@@ -1,6 +1,6 @@
 {
   "name": "naivdom",
-  "version": "0.0.3",
+  "version": "0.0.5",
   "type": "module",
   "description": "Lightweight, zero-dependency vdom implementation",
   "main": "dist/index.js",
@@ -21,7 +21,7 @@
     "zero-dependency"
   ],
   "devDependencies": {
-	"typescript": "*"
+    "typescript": "*"
   },
   "author": "Moritz Clerc <moritzamando@protonmail.com>",
   "license": "ISC"
